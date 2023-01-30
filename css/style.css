@@ -1,0 +1,67 @@
+@charset "utf-8";
+body {
+    font-family: "Fira Sans", sans-serif;
+    font-family: "Gayathri", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.topstrip {
+    background-color: #747c7b;
+    height: 40px;
+    font-size: 14px;
+    transition: all 0.5s;
+    color: #fff;
+    padding: 0;
+  }
+  
+  .topstrip .contact-info i {
+    font-style: normal;
+    color: #fff;
+    line-height: 0;
+  }
+  
+  .topstrip .contact-info i a,
+  .topstrip .contact-info i span {
+    padding-left: 5px;
+    color: #fff;
+  }
+  
+  @media (max-width: 575px) {
+  
+    .topstrip .contact-info i a,
+    .topstrip .contact-info i span {
+      font-size: 13px;
+    }
+  }
+  
+  .topstrip .contact-info i a {
+    line-height: 0;
+    transition: 0.3s;
+  }
+  
+  .topstrip .contact-info i a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .topstrip .social-icon a {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 0;
+    transition: 0.3s;
+    margin-left: 20px;
+  }
+  
+  .topstrip .social-icon a:hover {
+    color: #fff;
+  }
+  
+  .topbar
+ {
+    /* display: block; */
+    background: #ffffff;
+    height: 100px;
+    width: auto;
+    color: rgb(236, 77, 77);
+    text-align: center;
+    /* justify-content: center; */
+}
