@@ -69,6 +69,23 @@ body {
   margin-right: auto;
   display: block;
 }
+.breadcrumb {
+  padding: 8px 10px;
+ 
+  margin-bottom: 0;
+  list-style: none;
+  /* background:url(/images/temple.jpeg); */
+  border-radius: 4px;
+  margin-top:0px;
+ 
+}
+.breadcrumb .li{
+  color: #ad0e0e;
+  text-decoration: none;
+}
+.breadcrumb-item .active{
+  color: #45505b;
+}
 #preloader {
     position: fixed;
     top: 0;
